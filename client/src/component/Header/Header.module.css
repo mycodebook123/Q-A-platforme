@@ -1,0 +1,76 @@
+.header {
+  background: #1c1f24; /* A rich dark gray */
+  color: #e4e6eb; /* Light gray for text */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e4e6eb; /* Light text */
+  text-transform: uppercase;
+}
+
+.logoHighlight {
+  color: #00ffcc; /* Neon cyan for highlight */
+  text-shadow: 0 0 8px #00ffcc;
+}
+
+.navLinks {
+  align-items: center;
+}
+
+.navItem {
+  font-size: 1.1rem;
+  color: #adb5bd; /* Medium gray */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navItem:hover {
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ffcc;
+}
+
+.loginButton {
+  background: transparent;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+  background: #00ffcc;
+  color: #1c1f24;
+}
+
+.signupButton {
+  background: #00ffcc;
+  border: none;
+  color: #1c1f24;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.signupButton:hover {
+  background: #e4e6eb;
+  color: #1c1f24;
+}
+.logoutButton {
+  background: #00ffcc;
+  border: none;
+  color: #1c1f24;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.logoutButton:hover {
+  background: #e4e6eb;
+  color: #1c1f24;
+}

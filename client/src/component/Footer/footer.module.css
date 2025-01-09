@@ -1,0 +1,40 @@
+/* Footer.module.css */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.logoPlaceholder {
+  margin-bottom: 20px;
+}
+
+.iconGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.footerTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .iconGroup {
+    gap: 8px;
+  }
+}

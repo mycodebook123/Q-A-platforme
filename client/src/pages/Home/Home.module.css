@@ -1,0 +1,85 @@
+.pageWrapper {
+  background: #1c1f24; /* Dark background */
+  color: #e4e6eb; /* Light text color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  flex: 1; /* Ensure main content takes the available space */
+  padding-top: 20px;
+}
+
+.askQuestionButton {
+  background: #00ffcc;
+  border: none;
+  color: #1c1f24;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.askQuestionButton:hover {
+  background: #e4e6eb;
+  color: #1c1f24;
+}
+
+.welcomeText {
+  font-size: 1rem;
+  color: #adb5bd;
+}
+
+.searchInput {
+  /* background: #1c1f24; */
+  border: 1px solid #495057;
+  color: #e4e6eb;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #00ffcc;
+  /* box-shadow: 0 0 8px #00ffcc; */
+}
+
+.questionCard {
+  background: #2a2d34;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.questionCard h3 {
+  color: #00ffcc;
+}
+
+.usernameText {
+  color: #adb5bd;
+}
+
+.link {
+  color: #00ffcc;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #e4e6eb;
+}
+
+.paginationButton {
+  background: #1c1f24;
+  border: 1px solid #495057;
+  color: #e4e6eb;
+  transition: all 0.3s ease;
+}
+
+.paginationButton:hover {
+  background: #00ffcc;
+  color: #1c1f24;
+}
+
+.paginationButton.active {
+  background: #00ffcc;
+  color: #1c1f24;
+}

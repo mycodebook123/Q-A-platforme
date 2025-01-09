@@ -1,0 +1,161 @@
+.pageWrapper {
+    background: #1c1f24; /* Dark background */
+    color: #e4e6eb; /* Light text color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container {
+    flex: 1; /* Ensure main content takes the available space */
+    padding-top: 20px;
+  }
+  
+  .title {
+    color: #00ffcc; /* Accent color for title */
+    font-size: 2rem;
+  }
+  
+  .questionSection {
+    background: #2a2d34; /* Dark background for question section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  .questionTitle {
+    color: #00ffcc;
+    font-size: 1.8rem;
+  }
+  
+  .description {
+    color: #adb5bd;
+    font-size: 1rem;
+  }
+  
+  .answersSection {
+    background: #2a2d34; /* Dark background for answers section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+  }
+  
+  .sectionTitle {
+    color: #00ffcc; /* Accent color for section titles */
+    font-size: 1.5rem;
+  }
+  
+  .answersList {
+    margin-top: 20px;
+  }
+  
+  .answerItem {
+    background: #1f2329; /* Slightly darker background for individual answers */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+  }
+  
+  .avatarSection {
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .user__icon {
+    background-color: #00ffcc;
+    color: #1c1f24;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .username {
+    color: #adb5bd;
+    font-weight: bold;
+  }
+  
+  .answerText {
+    color: #e4e6eb;
+    font-size: 1.1rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pageButton {
+    background: #1c1f24;
+    border: 1px solid #495057;
+    color: #e4e6eb;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .pageButton:hover {
+    background: #00ffcc;
+    color: #1c1f24;
+  }
+  
+  .pageButton.active {
+    background: #00ffcc;
+    /* color: #1c1f24; */
+  }
+  
+  .submitSection {
+    background: #2a2d34;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+  }
+  
+  .submitButton {
+    background: #00ffcc;
+    color: #1c1f24;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background: #e4e6eb;
+    color: #1c1f24;
+  }
+  
+  .textArea {
+    /* background: #1c1f24; */
+    border: 1px solid #495057;
+    color: #e4e6eb;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .textArea:focus {
+    border-color: #00ffcc;
+  }
+  
+  .errorText {
+    color: red;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .successText {
+    color: blue;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
