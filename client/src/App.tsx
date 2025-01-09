@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import HowItWorks from "./component/HowitWorks/HowitWorks"; // Added HowItWorks component
+import PrivacyPolicy from "./component/FAQ/Faq";
 import {
   BrowserRouter as Router,
   Routes,
@@ -99,6 +101,10 @@ const AuthenticatedApp: React.FC = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/askquestion" element={<AskQuestion />} />
+      <Route path="/how-it-works" element={<HowItWorks />} />{" "}
+      {/* Added How It Works route */}
+      <Route path="/faq" element={<PrivacyPolicy />} /> {/* Added FAQ route */}
+    </Routes>
     </Routes>
   );
 };
