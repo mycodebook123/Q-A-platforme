@@ -1,0 +1,85 @@
+.pageWrapper {
+    background: #1c1f24;
+    color: #e4e6eb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .registerCard {
+    background: #2a2d34;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+  }
+  
+  .registerTitle {
+    color: #00ffcc;
+    /* text-shadow: 0 0 8px #00ffcc; */
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+    color: #e4e6eb;
+  }
+  
+  .input {
+    background: #1c1f24;
+    border: 1px solid #495057;
+    color: #e4e6eb;
+  }
+  
+  .input:focus {
+    border-color: #00ffcc;
+    /* box-shadow: 0 0 8px #00ffcc; */
+  }
+  
+  .passwordToggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #adb5bd;
+    cursor: pointer;
+  }
+  
+  .passwordToggle:hover {
+    color: #00ffcc;
+  }
+  
+  .registerButton {
+    background: #00ffcc;
+    border: none;
+    color: #1c1f24;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .registerButton:hover {
+    background: #e4e6eb;
+    color: #1c1f24;
+  }
+  
+  .linkText {
+    font-size: 0.9rem;
+    color: #adb5bd;
+  }
+  
+  .link {
+    color: #00ffcc;
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    color: #e4e6eb;
+  }
+  
+  .alertMessage {
+    font-size: 0.9rem;
+  }
+  
