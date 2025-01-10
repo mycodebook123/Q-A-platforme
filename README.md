@@ -1,4 +1,4 @@
-##Title: Q-A-Platform-for-Software-Students
+##Q-A-Platform-for-Software-Students
 
 
 Description
